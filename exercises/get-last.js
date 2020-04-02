@@ -8,6 +8,9 @@
  */
 
 // Your code:
+const getLast = (arrstr) => {
+    return arrstr[arrstr.length - 1]
+}
 
 //* Begin of tests
 const assert = require('assert');
