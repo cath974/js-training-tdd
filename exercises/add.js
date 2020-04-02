@@ -7,6 +7,9 @@
  */
 
 // Your code:
+const add = (nb1, nb2) => {
+    return (nb1 + nb2);
+}
 
 //* Begin of tests
 const assert = require('assert');
