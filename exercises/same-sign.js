@@ -8,6 +8,18 @@
  */
 
 // Your code:
+const sameSign = (nb1, nb2) => {
+    if ((nb1 === 0 && nb2 !== 0) || (nb2 === 0 && nb1 !== 0)) {
+        return false;
+    }
+    else if ((nb1 >= 0 && nb2 >= 0 ) || (nb1 <= 0 && nb2 <= 0 )){
+        return true;
+    }
+    else {
+        return false;
+    } 
+
+}
 
 //* Begin of tests
 const assert = require('assert');
